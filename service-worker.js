@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pengw00/davidpwu_eog_solution.git/precache-manifest.8c367a4e2273236ceff608b49ef24591.js"
+  "/pengw00/davidpwu_eog_solution/precache-manifest.2a2df39d31c3ffa6825b07bfc9ac9074.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pengw00/davidpwu_eog_solution.git/index.html", {
+workbox.routing.registerNavigationRoute("/pengw00/davidpwu_eog_solution/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
